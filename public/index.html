@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Resume</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header Section -->
+      <header>
+        <img
+          src="profile_pic.jpeg"
+          alt="Profile Picture"
+          class="profile-picture"
+        />
+        <h1>Syed Muhammad Ahsan Ali</h1>
+        <p>Contact: syedmahsan053@gmail.com | +92 341 4856179</p>
+      </header>
+
+      <main>
+        <div class="left-column">
+          <!-- Skills Section -->
+          <section id="skills">
+            <button class="toggle-button" data-target="skills">
+              Show/Hide
+            </button>
+            <div class="content">
+              <h2>Skills</h2>
+              <div class="skills-list">
+                <div class="skill-item">
+                  <span class="skill-name">HTML</span>
+                  <div class="skill-bar" style="--skill-width: 80%"></div>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">CSS</span>
+                  <div class="skill-bar" style="--skill-width: 75%"></div>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">JavaScript</span>
+                  <div class="skill-bar" style="--skill-width: 70%"></div>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">ReactJS</span>
+                  <div class="skill-bar" style="--skill-width: 85%"></div>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">NextJS</span>
+                  <div class="skill-bar" style="--skill-width: 50%"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Projects Section -->
+          <section id="projects">
+            <button class="toggle-button" data-target="projects">
+              Show/Hide
+            </button>
+            <div class="content">
+              <h2>Projects</h2>
+              <div class="projects-list">
+                <article class="project-item">
+                  <h3>
+                    FYP: Development and Validation of Lean Index for Pakistani
+                    Industries
+                  </h3>
+                  <p>
+                    This project involved developing and validating a lean index
+                    to enhance productivity and efficiency in Pakistani
+                    industries.
+                  </p>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <!-- Hobbies Section -->
+          <section id="hobbies">
+            <button class="toggle-button" data-target="hobbies">
+              Show/Hide
+            </button>
+            <div class="content">
+              <h2>Hobbies</h2>
+              <ul class="hobbies-list">
+                <li>Badminton</li>
+                <li>Cricket</li>
+                <li>Swimming</li>
+              </ul>
+            </div>
+          </section>
+
+          <!-- Personal Competencies Section -->
+          <section id="personal-competencies">
+            <button class="toggle-button" data-target="personal-competencies">
+              Show/Hide
+            </button>
+            <div class="content">
+              <h2>Personal Competencies</h2>
+              <ul class="competencies-list">
+                <li>
+                  Ability to work in a fast-paced environment to meet deadlines.
+                </li>
+                <li>Problem understanding and resolution.</li>
+                <li>Organize work and effectively manage time.</li>
+              </ul>
+            </div>
+          </section>
+
+          <!-- References Section -->
+          <section id="references">
+            <button class="toggle-button" data-target="references">
+              Show/Hide
+            </button>
+            <div class="content">
+              <h2>References</h2>
+              <p>Available upon request.</p>
+            </div>
+          </section>
+        </div>
+
+        <div class="right-column">
+          <!-- Education Section -->
+          <section id="education">
+            <button class="toggle-button" data-target="education">
+              Show/Hide
+            </button>
+            <div class="content">
+              <h2>Education</h2>
+              <div class="education-list">
+                <article class="education-item">
+                  <span class="degree-duration"
+                    >December 2016 – October 2020</span
+                  >
+                  <span class="degree-info">BE</span>
+                  <span class="degree-university">NEDUET, Karachi</span>
+                </article>
+                <article class="education-item">
+                  <span class="degree-duration"
+                    >January 2014 – January 2016</span
+                  >
+                  <span class="degree-info">FSC</span>
+                  <span class="degree-university"
+                    >Adamjee Government Science College, Karachi</span
+                  >
+                </article>
+                <article class="education-item">
+                  <span class="degree-duration"
+                    >January 2012 – January 2014</span
+                  >
+                  <span class="degree-info">SSC</span>
+                  <span class="degree-university"
+                    >Shoeby Grammar Secondary School, Karachi</span
+                  >
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <!-- Work Experience Section -->
+          <section id="work-experience">
+            <button class="toggle-button" data-target="work-experience">
+              Show/Hide
+            </button>
+            <div class="content">
+              <h2>Work Experience</h2>
+              <div class="work-item">
+                <span class="job-duration">2021 – Present</span>
+                <span class="job-title">Production Engineer</span>
+                <span class="job-company">Aisha Steel Mills, Karachi</span>
+                <p class="job-description">
+                  ● Conferring with Production Planning and Control Department
+                  to implement highly productive operating procedures.<br />
+                  ● Working with foreign delegations during commissioning of
+                  different projects at the plant, especially during the
+                  implementation of the new Rewinding line at ASML.<br />
+                  ● In the lead team of integrating SAP systems in ASML. Also, a
+                  power user since then.
+                </p>
+              </div>
+              <div class="work-item">
+                <span class="job-duration">February 2019</span>
+                <span class="job-title">Production Internship</span>
+                <span class="job-company">Atlas Honda Limited, Karachi</span>
+                <p class="job-description">
+                  ● Completed a project focused on designing a system for
+                  inventory management of spares in the die department.
+                </p>
+              </div>
+              <div class="work-item">
+                <span class="job-duration">June 2019</span>
+                <span class="job-title"
+                  >Process and Plant Maintenance Internship</span
+                >
+                <span class="job-company">OIL WORLD PVT. LTD, Karachi</span>
+                <p class="job-description">
+                  ● Assigned a task to study different sections of the process
+                  department and to present a comprehensive summary report for
+                  improvement.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+
+    <script src="../dist/main.js"></script>
+  </body>
+</html>
