@@ -8,7 +8,7 @@
     "forceConsistentCasingInFileNames": true /* Ensure that casing is consistent in imports. */,
 
     /* Emit */
-    "outDir": "./dist" /* Redirect output structure to this directory. */,
+    "outDir": "./public/dist" /* Redirect output structure to this directory. */,
     "sourceMap": false /* Create source map files for emitted JavaScript files. */,
     "declaration": false /* Do not generate .d.ts files. */,
     "removeComments": true /* Disable emitting comments. */,
